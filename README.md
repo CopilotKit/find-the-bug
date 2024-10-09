@@ -54,13 +54,13 @@ navigate to /home and then alert the path
 ```
 
 Observe that the path is updated, but CopilotKit doesn't alert the path!
-I.e. composite actions don't work correctly.
+**I.e. composite actions don't work correctly.**
 
 ![Create Next App · 6 04pm · 10-08](https://github.com/user-attachments/assets/903bcdd8-0b28-4cd4-8336-32fce98ec709)
 
 ### Instructions
-- Hint: the bug is in CopilotKit itself -- not in the app, but prove this to yourself first
-- Hint: the issue is in `packages/react-core/src/hooks/use-chat.ts`
+- Hint: the bug is in CopilotKit itself -- not in the app, but prove this to yourself first by understanding the `useCopilotAction` calls in the app
+- Hint: focus your efforts on `packages/react-core/src/hooks/use-chat.ts`
 - You can modify the code in the `CopilotKit/CopilotKit` folder -- and the app will reload with your updated code
 
   
