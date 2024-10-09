@@ -1,5 +1,9 @@
 # Find the bug
 
+### Setup your machine
+Install `pnpm` and `turbo`, and prepare an OpenAI API Key with access to GPT-4o (i.e. with a credit card behind it).
+We can supply you an API key during the interview.
+
 ### Set up CopilotKit for development
 
 (make sure you have pnpm and turbo installed)
